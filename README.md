@@ -2,7 +2,7 @@
 
 ## Overview
 
-I am currently learning Docker and using this repository, `learn-docker-with-aliaa`, to record my notes in an easy and organized manner. This project serves as a personal learning journal where I document my progress step by step.
+I am currently learning Docker and using this repository, `learn-docker-with-aliaa`, to record my notes in an easy and organized manner. This repo serves as a personal learning journal where I document my progress step by step.
 
 ## Purpose
 
