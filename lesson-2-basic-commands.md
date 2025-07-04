@@ -2,7 +2,7 @@
 
 ## Overview
 
-This lesson focuses on the basic Docker commands needed to build, run, and manage containers. We will explain each command, detailing its required and optional components, and then demonstrate their use with a simple Python Flask application. Finally, I will provide a simplified diagram with a trace of the Dockerfile execution to illustrate how the image is built.
+This lesson focuses on the basic Docker commands needed to build, run, and manage containers. I will explain each command, detailing its required and optional components, and then demonstrate their use with a simple Python Flask application. Finally, I will provide a simplified diagram with a trace of the Dockerfile execution to illustrate how the image is built.
 
 ## Basic Docker Commands
 
@@ -217,9 +217,6 @@ Run a container from  image.
 * `-p 5000:5000`: map port 5000 on your machine to port 5000 in the container.
 * `my-flask-app`: the image name .
 
-You can add the following note section to your `lesson-2-basic-commands.md` file under the relevant section (e.g., after explaining the `docker run` command). Here’s how it can be formatted in English, organized and clear, based on your question about the `-p 5000:5000` option:
-
----
 
 ##### Notes on Port Mapping with `-p`
 - The `-p 5000:5000` option in the `docker run` command maps a port on the host machine to a port inside the container.
@@ -231,9 +228,6 @@ You can add the following note section to your `lesson-2-basic-commands.md` file
 
 ---
 
-You can insert this note under the "2.2 Running the Container" section in your `lesson-2-basic-commands.md` file to provide additional clarity for readers. Let me know if you’d like to adjust its placement or add more details!
-
----
 ### Dockerfile Execution Trace
 
 ```
