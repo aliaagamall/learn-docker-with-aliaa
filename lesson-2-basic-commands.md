@@ -221,7 +221,7 @@ Run a container from  image.
 ##### Notes on Port Mapping with `-p`
 - The `-p 5000:5000` option in the `docker run` command maps a port on the host machine to a port inside the container.
   - The **first number (5000)** represents the port on the host machine. This port can be changed (e.g., to 5001, 5002, etc.) as long as it is available and not used by another application on the host.
-  - The **second number (5000)** represents the port inside the container. This port depends on the application’s configuration within the container (e.g., your Flask app is set to use port 5000 with `app.run(host="0.0.0.0", port=5000, debug=True)`), and it typically remains the same unless the application code is modified.
+  - The **second number (5000)** represents the port inside the container. This port depends on the application’s configuration within the container (e.g., The Flask app is set to use port 5000 with `app.run(host="0.0.0.0", port=5000, debug=True)`), and it typically remains the same unless the application code is modified.
 - **Example**:
   - `docker run -d -p 5000:5000 --name flask-container my-flask-app`: Access the app at `http://localhost:5000`.
   - `docker run -d -p 5001:5000 --name flask-container-2 my-flask-app`: Access the app at `http://localhost:5001`.
