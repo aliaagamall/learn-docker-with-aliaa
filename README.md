@@ -21,22 +21,12 @@ The repository will contain lesson files added incrementally:
 To follow my journey or contribute:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/learn-docker-with-aliaa.git
+   git clone https://aliaagamall/learn-docker-with-aliaa.git
    ```
 2. Explore the lesson files in the root directory.
 
-## Future Plans
 
-I will continue adding lessons covering topics such as:
-- Basic Docker commands.
-- Docker Compose.
-- Database integration.
-- Cloud deployment.
 
 ## Contributing
 
 Suggestions, feedback, or contributions are welcome. Please open an issue or pull request on the repository.
-
-## License
-
-This project is open-source and available under the MIT License.
