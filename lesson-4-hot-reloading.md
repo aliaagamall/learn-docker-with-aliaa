@@ -228,4 +228,5 @@ In the next lesson, I will figure out how to control this. I might use `.dockeri
 
 ## Summary
 
-Rebuilding is needed for code changes, but a volume with `-v` lets me see local changes instantly. However, it brings back ignored files and syncs container changes to my local folder. I’ll solve this next time!
+Rebuilding is needed for code changes, but a volume with `-v` lets me see local changes instantly. However, it brings back ignored files and syncs container changes to my local folder.
+Stay tuned for the next lesson where I’ll uncover a clever solution to keep my local folder safe 😉
